@@ -11,6 +11,12 @@ services:
       - key: RENDER_APP_NAME
         sync: false
         required: true
+      - key: SUDO
+        sync: false
+        required: false
+      - key: WORK_TYPE
+        sync: false
+        required: false
       - key: RENDER_API
         sync: false
         required: true
